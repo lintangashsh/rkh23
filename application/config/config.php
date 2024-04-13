@@ -24,9 +24,9 @@ defined('BASEPATH') or exit('No direct script access allowed');
 |
 */
 $config['base_url'] = 'http://108.136.248.218/rkh23-main/';
-$config['base_url'] = 'https://108.136.248.218/rkh23-main/';
+// $config['base_url'] = 'https://108.136.248.218/rkh23-main/';
 $config['base_url'] = 'http://ec2-108-136-248-218.ap-southeast-3.compute.amazonaws.com/rkh23-main/';
-$config['base_url'] = 'https://ec2-108-136-248-218.ap-southeast-3.compute.amazonaws.com/rkh23-main/';
+// $config['base_url'] = 'https://ec2-108-136-248-218.ap-southeast-3.compute.amazonaws.com/rkh23-main/';
 
 
 /*
