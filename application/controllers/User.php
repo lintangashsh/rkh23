@@ -95,7 +95,7 @@ class User extends CI_Controller
             $upload_image = $_FILES['image']['name'];
 
             if ($upload_image) {
-                $config['allowed_types'] = 'gif|jpg|jpeg|png';
+                $config['allowed_types'] = 'gif|jpg|jpeg|png|JPG|JPEG|PNG';
                 $config['upload_path'] = './assets/img/profil/';
 
                 $this->load->library('upload', $config);
@@ -223,7 +223,7 @@ class User extends CI_Controller
         if ($image_review = '') {
         } else {
             $config['upload_path'] = './assets/img/testimoni/';
-            $config['allowed_types'] = 'jpg|jpeg|png|gif|mp4|webm';
+            $config['allowed_types'] = 'jpg|jpeg|png|JPG|JPEG|PNG|gif|mp4|MP4|webm';
 
             $this->load->library('upload', $config);
 
@@ -265,7 +265,7 @@ class User extends CI_Controller
         if ($image_review = '') {
         } else {
             $config['upload_path'] = './assets/img/testimoni/';
-            $config['allowed_types'] = 'jpg|jpeg|png|gif|mp4|webm';
+            $config['allowed_types'] = 'jpg|jpeg|png|JPG|JPEG|PNG|gif|mp4|MP4|webm';
 
             $this->load->library('upload', $config);
 
