@@ -151,6 +151,7 @@
                             <video class="w-auto rounded-lg h-72 m-auto" loop muted autoplay poster="<?= base_url('assets/img/testimoni/') . $rv->image_review ?>">
                                 <source src="<?= base_url('assets/img/testimoni/') . $rv->image_review ?>" type="video/webm">
                                 <source src="<?= base_url('assets/img/testimoni/') . $rv->image_review ?>" type="video/mp4">
+                                <source src="<?= base_url('assets/img/testimoni/') . $rv->image_review ?>" type="video/MP4">
                                 Your browser does not support the video tag.
                             </video>
                         </button>
