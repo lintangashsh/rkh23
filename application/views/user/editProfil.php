@@ -26,7 +26,7 @@
                     </div>
                     <div class="w-9/12">
                         <label for="image" class="block mb-2 text-sm font-medium text-gray-900 ">Unggah File</label>
-                        <label for="image" class="block mb-4 text-sm font-medium text-red-900 ">*upload file hanya berukuran rasio 1:1 saja</label>
+                        <label for="image" class="block mb-4 text-sm font-medium text-red-600 ">*upload file hanya berukuran rasio 1:1 saja</label>
                         <input type="file" id="image" name="image" class="block w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 cursor-pointer focus:outline-none" aria-describedby="user_avatar_help" id="user_avatar">
                     </div>
                 </div>
