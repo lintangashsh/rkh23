@@ -112,7 +112,7 @@
 
                     <div class="w-full p-3 flex flex-col justify-between shadow-lg rounded-xl text-center">
                         <div class="pb-2 m-auto">
-                            <img class="w-56 h-56 rounded" src="<?= base_url('assets/img/testimoni/') . $rv->image_review ?>" alt="Large avatar">
+                            <img class="w-56 h-56 rounded" src="<?= base_url('assets/img/testimoni/') . $rv->image_review ?>" alt="#none">
                         </div>
                         <p class="mb-2 font-montserrat">
                             <?= $rv->review ?>
