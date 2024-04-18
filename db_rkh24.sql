@@ -2,10 +2,10 @@
 -- version 5.2.1
 -- https://www.phpmyadmin.net/
 --
--- Host: 127.0.0.1:8000
--- Generation Time: Apr 12, 2024 at 05:53 PM
--- Server version: 10.4.28-MariaDB
--- PHP Version: 8.2.4
+-- Host: localhost
+-- Generation Time: Apr 17, 2024 at 04:49 PM
+-- Server version: 10.5.23-MariaDB
+-- PHP Version: 8.2.9
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -105,7 +105,9 @@ CREATE TABLE `tb_review` (
 
 INSERT INTO `tb_review` (`id`, `name`, `review`, `image_profile`, `image_review`, `posting_time`, `favorite`) VALUES
 (15, 'M Lintang A W', 'Uji Coba Review Video', 'Profil_Ltg1.png', 'Desktop_2024_03_13_-_15_36_55_0111.mp4', 1712935962, 1),
-(16, 'M Lintang A W', 'Uji Review Gambar', 'Profil_Ltg1.png', 'thumbsUp51.png', 1712936497, 1);
+(16, 'M Lintang A W', 'Uji Review Gambar', 'Profil_Ltg1.png', 'thumbsUp51.png', 1712936497, 1),
+(18, 'Fauzi Rahman', 'mantap gan', 'Profil_Poji.png', '', 1713051233, 1),
+(19, 'Abdullah Zaky', 'mari ktia coba', 'default.png', '', 1713051575, 1);
 
 -- --------------------------------------------------------
 
@@ -151,8 +153,12 @@ CREATE TABLE `user` (
 
 INSERT INTO `user` (`id`, `code_account`, `name`, `email`, `image`, `password`, `point`, `referral_code`, `role_id`, `is_active`, `date_created`) VALUES
 (3, '99999', 'Daffa Muttaqin', 'daffamuttaqin09@gmail.com', 'Logo-UPI-Universitas-Pendidikan-Indonesia-Original-PNG.png', '$2y$10$4/Da9h2cl.VjjjALLJZwK.UHcSSWJM.l5GaYQKlzGPgiI84AXmxrm', 14, '0', 2, 1, 1657887979),
-(38, '762508', 'M Lintang A W', 'lintangashshofa@gmail.com', 'Profil_Ltg1.png', '$2y$10$ln7kntfTQax9uiGJmJ5C2uKvr7fgjBN0cnN6GxSRrrX4gbRtB9KKu', 50, '', 1, 1, 1712831508),
-(39, '213748', 'Fauzi Rahman', 'fzirahman@gmail.com', 'Profil_Poji.png', '$2y$10$5KDfNnFIhNGm7U5XBf466OWn2r0YywyC.dHnh3iQOm5HD9BKKCNAy', 0, '', 2, 1, 1712936942);
+(38, '762508', 'M Lintang A W', 'lintangashshofa@gmail.com', 'Profil_Ltg1.png', '$2y$10$ln7kntfTQax9uiGJmJ5C2uKvr7fgjBN0cnN6GxSRrrX4gbRtB9KKu', 51, '', 1, 1, 1712831508),
+(39, '213748', 'Fauzi Rahman', 'fzirahman@gmail.com', 'Profil_Poji.png', '$2y$10$5KDfNnFIhNGm7U5XBf466OWn2r0YywyC.dHnh3iQOm5HD9BKKCNAy', 0, '', 2, 1, 1712936942),
+(40, '951736', 'Abdullah Zaky', 'abdullahzakys@gmail.com', 'Profil_Abdol.png', '$2y$10$quhjffw7rMt3bwXHWmijIOpvbPbntAuf..vZCKWDe85LmMjijWsKO', 0, '', 2, 1, 1713051438),
+(41, '769504', 'Farhan', 'farhan0162@outlook.com', 'default.png', '$2y$10$Vq33yjxfGlkR.fwqKXTzDeern1MNGCg.JlxZq1naIVo9x738pjGTi', 0, '', 2, 1, 1713371621),
+(42, '973045', 'Rizky Sahputra Ginting', 'rizkysahputra06@gmail.com', 'default.png', '$2y$10$uV18iVmacL371PyNqFrlee3rxjG/6Vlc.XJ5hhn6/4YNJZ29.c.Xa', 0, '', 2, 1, 1713371838),
+(43, '642817', 'Annisa Aulia', 'annisaaulia@gmail.com', 'syafiramutialbs-20221127-0001~3.jpg', '$2y$10$3dxtd8Vi440zZ4WxAqyb6uZV06jVu2a6hP31ci71YRHGuTiWOjzPi', 0, '762508', 2, 1, 1713372214);
 
 -- --------------------------------------------------------
 
@@ -319,7 +325,7 @@ ALTER TABLE `tb_produk_terlaris`
 -- AUTO_INCREMENT for table `tb_review`
 --
 ALTER TABLE `tb_review`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
 
 --
 -- AUTO_INCREMENT for table `tb_review_detail`
@@ -331,7 +337,7 @@ ALTER TABLE `tb_review_detail`
 -- AUTO_INCREMENT for table `user`
 --
 ALTER TABLE `user`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=40;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=44;
 
 --
 -- AUTO_INCREMENT for table `user_access_menu`
