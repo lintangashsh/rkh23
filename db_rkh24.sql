@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Apr 18, 2024 at 02:34 PM
+-- Generation Time: Apr 20, 2024 at 11:02 AM
 -- Server version: 10.5.23-MariaDB
 -- PHP Version: 8.2.9
 
@@ -159,7 +159,8 @@ INSERT INTO `user` (`id`, `code_account`, `name`, `email`, `image`, `password`, 
 (41, '769504', 'Farhan', 'farhan0162@outlook.com', 'default.png', '$2y$10$Vq33yjxfGlkR.fwqKXTzDeern1MNGCg.JlxZq1naIVo9x738pjGTi', 10, '', 2, 1, 1713371621),
 (42, '973045', 'Rizky Sahputra Ginting', 'rizkysahputra06@gmail.com', 'IMG-20240417-WA0022.jpg', '$2y$10$uV18iVmacL371PyNqFrlee3rxjG/6Vlc.XJ5hhn6/4YNJZ29.c.Xa', 15, '', 2, 1, 1713371838),
 (43, '642817', 'Annisa Aulia', 'annisaaulia@gmail.com', 'syafiramutialbs-20221127-0001~3.jpg', '$2y$10$3dxtd8Vi440zZ4WxAqyb6uZV06jVu2a6hP31ci71YRHGuTiWOjzPi', 25, '762508', 2, 1, 1713372214),
-(44, '069253', 'Zaky Saifurrahman', 'pppp@gmail.com', 'default.png', '$2y$10$4XI68dwBJ9lTrcLfaxYoP.1g5pGKcRSc04xh.DdzgPyz5HHo5CReK', 14, '', 2, 1, 1713442605);
+(44, '069253', 'Zaky Saifurrahman', 'pppp@gmail.com', 'default.png', '$2y$10$4XI68dwBJ9lTrcLfaxYoP.1g5pGKcRSc04xh.DdzgPyz5HHo5CReK', 14, '', 2, 1, 1713442605),
+(45, '541269', 'Martin Gunawan Manurung', 'martingunawanmanurungmartin@gmail.com', 'default.png', '$2y$10$AfSILEZzRR2pUCQJhdPb1ukt2Mogx.OBhFlfZ7HREomPjafKd.k6e', 0, '', 2, 1, 1713496813);
 
 -- --------------------------------------------------------
 
@@ -338,7 +339,7 @@ ALTER TABLE `tb_review_detail`
 -- AUTO_INCREMENT for table `user`
 --
 ALTER TABLE `user`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=45;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=46;
 
 --
 -- AUTO_INCREMENT for table `user_access_menu`

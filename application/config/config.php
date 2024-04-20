@@ -23,10 +23,10 @@ defined('BASEPATH') or exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://13.229.237.42/rkh23-main/';
-$config['base_url'] = 'https://13.229.237.42/rkh23-main/';
-$config['base_url'] = 'http://ec2-13-229-237-42.ap-southeast-1.compute.amazonaws.com/rkh23-main';
-$config['base_url'] = 'https://ec2-13-229-237-42.ap-southeast-1.compute.amazonaws.com/rkh23-main/';
+$config['base_url'] = 'http://54.169.192.34/rkh23-main/';
+// $config['base_url'] = 'https://13.229.237.42/rkh23-main/';
+$config['base_url'] = 'http://ec2-54-169-192-34.ap-southeast-1.compute.amazonaws.com/rkh23-main/';
+// $config['base_url'] = 'https://ec2-13-229-237-42.ap-southeast-1.compute.amazonaws.com/rkh23-main/';
 
 
 /*
