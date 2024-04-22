@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Apr 20, 2024 at 11:02 AM
+-- Generation Time: Apr 22, 2024 at 06:34 PM
 -- Server version: 10.5.23-MariaDB
 -- PHP Version: 8.2.9
 
@@ -108,7 +108,8 @@ INSERT INTO `tb_review` (`id`, `name`, `review`, `image_profile`, `image_review`
 (18, 'Fauzi Rahman', 'mantap gan', 'Profil_Poji.png', 'thumbsUp51.png', 1713051233, 1),
 (20, 'Annisa Aulia', 'Just try it!', 'syafiramutialbs-20221127-0001~3.jpg', 'checklist1.png', 1713379901, 1),
 (22, 'Zaky Saifurrahman', 'Enak bangett rasanya... Recomended bgt nih????', 'default.png', 'emot1.png', 1713442880, 1),
-(23, 'Abdullah Wahyu', 'Kenapa review aku dihapus min??', 'Profil_Abdol1.png', 'bg31.jpg', 1713450354, 1);
+(23, 'Abdullah Wahyu', 'Kenapa review aku dihapus min??', 'Profil_Abdol1.png', 'bg31.jpg', 1713450354, 1),
+(24, 'Naf', 'Kuenya enakkk tapi sayangg sering jadi rebutan dirumah:’)', 'naf.jpg', 'A773F9E6-2926-4CE9-B58E-8DC28914A79E2.jpeg', 1713637136, 1);
 
 -- --------------------------------------------------------
 
@@ -160,7 +161,8 @@ INSERT INTO `user` (`id`, `code_account`, `name`, `email`, `image`, `password`, 
 (42, '973045', 'Rizky Sahputra Ginting', 'rizkysahputra06@gmail.com', 'IMG-20240417-WA0022.jpg', '$2y$10$uV18iVmacL371PyNqFrlee3rxjG/6Vlc.XJ5hhn6/4YNJZ29.c.Xa', 15, '', 2, 1, 1713371838),
 (43, '642817', 'Annisa Aulia', 'annisaaulia@gmail.com', 'syafiramutialbs-20221127-0001~3.jpg', '$2y$10$3dxtd8Vi440zZ4WxAqyb6uZV06jVu2a6hP31ci71YRHGuTiWOjzPi', 25, '762508', 2, 1, 1713372214),
 (44, '069253', 'Zaky Saifurrahman', 'pppp@gmail.com', 'default.png', '$2y$10$4XI68dwBJ9lTrcLfaxYoP.1g5pGKcRSc04xh.DdzgPyz5HHo5CReK', 14, '', 2, 1, 1713442605),
-(45, '541269', 'Martin Gunawan Manurung', 'martingunawanmanurungmartin@gmail.com', 'default.png', '$2y$10$AfSILEZzRR2pUCQJhdPb1ukt2Mogx.OBhFlfZ7HREomPjafKd.k6e', 0, '', 2, 1, 1713496813);
+(45, '541269', 'Martin Gunawan Manurung', 'martingunawanmanurungmartin@gmail.com', 'default.png', '$2y$10$AfSILEZzRR2pUCQJhdPb1ukt2Mogx.OBhFlfZ7HREomPjafKd.k6e', 0, '', 2, 1, 1713496813),
+(46, '640139', 'Naf', 'navisatan@gmail.co.id', 'naf.jpg', '$2y$10$uM.KkTUi6eBv4f50DeUrYOCNBq.3En32ezJPblarDEjQnrTSi78Gi', 0, '', 2, 1, 1713635916);
 
 -- --------------------------------------------------------
 
@@ -327,7 +329,7 @@ ALTER TABLE `tb_produk_terlaris`
 -- AUTO_INCREMENT for table `tb_review`
 --
 ALTER TABLE `tb_review`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=24;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=25;
 
 --
 -- AUTO_INCREMENT for table `tb_review_detail`
@@ -339,7 +341,7 @@ ALTER TABLE `tb_review_detail`
 -- AUTO_INCREMENT for table `user`
 --
 ALTER TABLE `user`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=46;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=47;
 
 --
 -- AUTO_INCREMENT for table `user_access_menu`
